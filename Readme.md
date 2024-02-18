@@ -1,10 +1,11 @@
 
 # Expo v50でのWebRTCとBluetoothの実装
 
-Expo v50でのWebRTCとBluetoothの実装
+Expo v50でのWebRTCとBluetoothの実装  
 特にWebRTCは2014.2.18現在ではエラーが出るので、その対応を参考として共有します。
 
 ```bash
+npx expo install react-native-ble-plx
 npx expo install @config-plugins/react-native-webrtc 
 npx expo install react-native-webrtc
 ```
